@@ -160,6 +160,7 @@ LOGOUT_REDIRECT_URL = "book:home"
 #1
 
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+SESSION_COOKIE_SECURE = True
 
 #2
 
